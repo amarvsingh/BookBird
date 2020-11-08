@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BOOK BIRD</string>
+    <string name="feedback">Feedback</string>
+    <string name="userguide">User Guide</string>
+    <string name="logout">Log out</string>
+</resources>

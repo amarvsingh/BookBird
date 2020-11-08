@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hover1"
+    android:padding="10dp"
+    tools:context=".SellerUploadFinish">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        app:contentPadding="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@color/colorscheme1">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:id="@+id/uploadgif"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorscheme1"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:contentPadding="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/colorPrimary">
+            
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Successfully Uploaded"
+                    android:textAlignment="center"
+                    android:textColor="@color/hover1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:contentPadding="10dp"
+                app:cardBackgroundColor="@color/hover1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bookname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......."
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/subjectname"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......."
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/branchname"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......."
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/semname"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......."
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/mrp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......."
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......."
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/condition"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......."
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/gotodashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Dashboard"
+                android:textSize="20dp"
+                android:textColor="@color/hover1"
+                android:textStyle="bold"
+                android:background="@drawable/mybutton"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

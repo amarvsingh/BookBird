@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hover1"
+    android:padding="10dp"
+    tools:context=".BuyerBookResults">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentPadding="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/hover1"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/mappingtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="//mapping"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/bookresultrecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:id="@+id/nobooksfound"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/no_result" />
+
+                <TextView
+                    android:id="@+id/nobooksfoundtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="No Books found"
+                    android:visibility="invisible"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+</ScrollView>

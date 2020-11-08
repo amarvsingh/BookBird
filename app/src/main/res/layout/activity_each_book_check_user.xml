@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hover1"
+    android:padding="10dp"
+    tools:context=".EachBookCheckUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentPadding="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="@color/colorscheme1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/userlogo"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/user_logo_3" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:contentPadding="10dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/hover1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:contentPadding="5dp"
+                            app:cardCornerRadius="15dp"
+                            app:cardBackgroundColor="@color/colorPrimary">
+
+                            <TextView
+                                android:id="@+id/usernameeach"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="//username"
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:textColor="@color/hover1"
+                                android:textAlignment="center"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            app:contentPadding="5dp"
+                            app:cardCornerRadius="15dp"
+                            app:cardBackgroundColor="@color/colorPrimary">
+
+                            <TextView
+                                android:id="@+id/fullnameeach"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="//fullname"
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:textColor="@color/hover1"
+                                android:textAlignment="center"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            app:contentPadding="5dp"
+                            app:cardCornerRadius="15dp"
+                            app:cardBackgroundColor="@color/colorPrimary">
+
+                            <TextView
+                                android:id="@+id/Brancheach"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="//branch"
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:textColor="@color/hover1"
+                                android:textAlignment="center"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            app:contentPadding="5dp"
+                            app:cardCornerRadius="15dp"
+                            app:cardBackgroundColor="@color/colorPrimary">
+
+                            <TextView
+                                android:id="@+id/yeareach"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="//year"
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:textColor="@color/hover1"
+                                android:textAlignment="center"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            app:contentPadding="5dp"
+                            app:cardCornerRadius="15dp"
+                            app:cardBackgroundColor="@color/colorPrimary">
+
+                            <TextView
+                                android:id="@+id/contacteach"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="//contact"
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:textColor="@color/hover1"
+                                android:textAlignment="center"/>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <Button
+                    android:id="@+id/callseller"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Call the Seller"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/hover1"
+                    android:background="@drawable/mybutton"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
